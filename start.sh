@@ -10,7 +10,7 @@ echo "Switching to env..."
 source env//bin//activate
 
 echo "Installing requirements..."
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 
 echo "Up server..."
-python src//app.py
+python3 src//app.py
